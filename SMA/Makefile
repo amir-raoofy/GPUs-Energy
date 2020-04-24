@@ -1,4 +1,4 @@
-CUDA_Root ?= "/software/cuda-10.1"
+CUDA_Root ?= "/usr/local/cuda"
 
 NVML_LIB += $(CUDA_Root)/lib/
 NVML_LIB_L := $(addprefix -L , $(NVML_LIB))
