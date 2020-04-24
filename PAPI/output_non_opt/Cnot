@@ -1,0 +1,22 @@
+**************************************************************
+Function --> 
+Cnot
+
+
+PAPI_VERSION     :    5      7       0
+Name nvml:::Tesla_P100-PCIE-16GB:device_0:power --- Code: 0x40000000
+On device 0:        37938 		 --> nvml:::Tesla_P100-PCIE-16GB:device_0:power 
+
+Cnot done
+**************************************************************
+**************************************************************
+Function --> 
+Cnot
+
+
+PAPI_VERSION     :    5      7       0
+Name nvml:::Tesla_P100-PCIE-16GB:device_0:power --- Code: 0x40000000
+On device 0:        37913 		 --> nvml:::Tesla_P100-PCIE-16GB:device_0:power 
+
+Cnot done
+**************************************************************

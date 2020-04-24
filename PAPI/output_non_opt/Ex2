@@ -1,0 +1,22 @@
+**************************************************************
+Function --> 
+Ex2
+
+
+PAPI_VERSION     :    5      7       0
+Name nvml:::Tesla_P100-PCIE-16GB:device_0:power --- Code: 0x40000000
+On device 0:        37938 		 --> nvml:::Tesla_P100-PCIE-16GB:device_0:power 
+
+Ex2 done
+**************************************************************
+**************************************************************
+Function --> 
+Ex2
+
+
+PAPI_VERSION     :    5      7       0
+Name nvml:::Tesla_P100-PCIE-16GB:device_0:power --- Code: 0x40000000
+On device 0:        38158 		 --> nvml:::Tesla_P100-PCIE-16GB:device_0:power 
+
+Ex2 done
+**************************************************************
