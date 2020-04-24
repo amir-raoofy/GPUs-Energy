@@ -1,7 +1,7 @@
-PAPI_ROOT = /software/papi
-PAPI_CUDA_ROOT = /software/cuda-10.1
+PAPI_ROOT = /home/ubuntu/papi-5.7.0/src/
+PAPI_CUDA_ROOT = /usr/local/cuda/
 
-ARCH_CC = 50
+ARCH_CC = 60
 ARCH = arch=compute_$(ARCH_CC),code=sm_$(ARCH_CC)
 
 PAPI_NVML_ROOT ?= $(PAPI_CUDA_ROOT)
@@ -11,8 +11,9 @@ PAPI_NVML_LIB ?= $(PAPI_CUDA_ROOT)/lib64/stubs
 NVCC = $(PAPI_CUDA_ROOT)/bin/nvcc
 NVCFLAGS = -L$(PAPI_NVML_INC) -ccbin=$(CC)
 CUDALIBS = -L$(PAPI_NVML_LIB) -L$(PAPI_CUDA_ROOT)/lib64 -lcuda -lcudart -lnvidia-ml -lstdc++
-PAPILIB := $(PAPI_ROOT)/lib/libpapi.a  -ldl
-INCLUDE := -I$(PAPI_ROOT)/include
+#PAPILIB := $(PAPI_ROOT)/lib/libpapi.a  -ldl
+PAPILIB := $(PAPI_ROOT)/libpapi.a  -ldl
+INCLUDE := -I$(PAPI_ROOT)/include -I$(PAPI_ROOT)
 NONOPT := -Xptxas -O0
 
 nonOpt: pipeline.cu $(UTILOBJS)

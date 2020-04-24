@@ -1,10 +1,10 @@
-CUDA_ROOT = /software/cuda-10.1
+CUDA_ROOT = /usr/local/cuda
 
 NVML_ROOT ?= $(CUDA_ROOT)
 NVML_INC ?= $(CUDA_ROOT)/include
 NVML_LIB ?= $(CUDA_ROOT)/lib64/stubs
 
-ARCH_CC = 50
+ARCH_CC = 60
 ARCH = arch=compute_$(ARCH_CC),code=sm_$(ARCH_CC)
 
 NVCC = $(CUDA_ROOT)/bin/nvcc

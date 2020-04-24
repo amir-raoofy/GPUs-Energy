@@ -48,7 +48,8 @@ c = (int *)malloc(n * sizeof(int));
         RUN papi_native_avail to get a list of CUDA events that are 
         supported on your machine */
         // e.g. on a P100 nvml:::Tesla_P100-SXM2-16GB:power
-    char anEvent[64] = "nvml:::GeForce_GTX_TITAN_X:device_0:power";
+    //char anEvent[64] = "nvml:::GeForce_GTX_TITAN_X:device_0:power";
+    char anEvent[64] = "nvml:::Tesla_P100-PCIE-16GB:device_0:power";
     char *EventName[] = { anEvent };
     int events[NUM_EVENTS];
     int eventCount = 0;
