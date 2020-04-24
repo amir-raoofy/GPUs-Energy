@@ -1,0 +1,24 @@
+Found 1 device
+
+Power: 27.422000W at Fri Apr 24 17:37:15 2020
+
+Power: 27.406000W at Fri Apr 24 17:37:16 2020
+
+Power: 27.406000W at Fri Apr 24 17:37:17 2020
+
+Power: 27.406000W at Fri Apr 24 17:37:18 2020
+
+Power: 27.422000W at Fri Apr 24 17:37:19 2020
+
+Power: 27.406000W at Fri Apr 24 17:37:20 2020
+
+Power: 27.404000W at Fri Apr 24 17:37:21 2020
+
+Power: 27.404000W at Fri Apr 24 17:37:22 2020
+
+Power: 27.404000W at Fri Apr 24 17:37:23 2020
+
+Power: 27.406000W at Fri Apr 24 17:37:24 2020
+
+Power: 27.422000W at Fri Apr 24 17:37:25 2020
+
